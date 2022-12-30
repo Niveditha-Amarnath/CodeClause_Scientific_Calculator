@@ -14,7 +14,7 @@ import java.awt.SystemColor;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Scientific_calci {
+public class Scientific_Calculator {
 
 	private JFrame frame;
 	private JTextField res;
@@ -28,7 +28,7 @@ public class Scientific_calci {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Scientific_calci window = new Scientific_calci();
+					Scientific_Calculator window = new Scientific_Calculator();
 					
 					window.frame.setVisible(true);
 				} catch (Exception e) {
@@ -39,7 +39,7 @@ public class Scientific_calci {
 	}
 
 
-	public Scientific_calci() {
+	public Scientific_Calculator() {
 		initialize();
 	}
 	
@@ -53,7 +53,7 @@ public class Scientific_calci {
 		menuBar.setBounds(0, 0, 700,40 );
 		frame.getContentPane().add(menuBar);
 		
-		JMenu mnNewMenu = new JMenu("Mode");
+		JMenu mnNewMenu = new JMenu("!!! CALCULATOR !!!");
 		mnNewMenu.setFont(new Font("Segoe UI", Font.PLAIN, 15));
 		menuBar.add(mnNewMenu);
 		
